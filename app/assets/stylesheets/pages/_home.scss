@@ -16,16 +16,16 @@
 
 
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-text-decoration: none;
+  text-decoration: none;
 }
 iframe {
   width: 100%;
   height: 500px;
-   padding-top: 40px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 
@@ -42,7 +42,7 @@ body{
   align-items: center;
   justify-content: center;
   position:relative;
-   background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 .banner img{
@@ -66,7 +66,7 @@ body{
   align-items: center;
   justify-content: center;
   position:relative;
-   background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 
@@ -123,3 +123,15 @@ hr {
   width: auto;
   height: 100%;
 }
+
+.img-res img{
+  width: 100%;
+  height: 100%;
+}
+
+.porlaroid img {
+  width: 100%;
+  height: auto;
+}
+
+

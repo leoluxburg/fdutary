@@ -1,16 +1,14 @@
-<div class="container" style="padding-top: 150px; padding-bottom: 50px;">
-  <h2 class="text-center" style="color: white; font-family: 'Raleway', sans-serif;"> <%= @polaroid.title %></h2>
+<div class="container text-center" style="padding-top: 150px; padding-bottom: 50px;">
+  <h2 style="color: white; font-family: 'Raleway', sans-serif;"> <%= @polaroid.title %></h2>
   <br>
   <hr>
-  <div class="text-center">
-    <div class="responsive">
-    <%= cl_image_tag @polaroid.photo.key %>
-    </div>
-    <br>
-    <p style="color: white; font-family: 'Raleway', sans-serif;">  <%= @polaroid.description %></p>
+  <br>
+  <div class="responsive">
+    <%= cl_image_tag @polaroid.photo.key, height: 450, class: "img-res" %>
   </div>
+  <br>
+  <p style="color: white; font-family: 'Raleway', sans-serif;">  <%= @polaroid.description %></p>
   <hr>
+  <br>
 </div>
-
-
 
