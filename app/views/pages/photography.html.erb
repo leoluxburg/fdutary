@@ -5,7 +5,7 @@
   <hr>
 <br>
     <% @polaroids.each do |polaroid| %>
-    <div class="col-xs-12 text-center" style="padding-left: 20px;">
+    <div class="col-xs-12 text-center" style="">
       <%= link_to polaroid_path(polaroid) do %>
       <div class="resposive">
       <%= cl_image_tag polaroid.photo.key, height: 300, class: "img-fluid", crop: :fill %>
