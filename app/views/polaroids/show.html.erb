@@ -1,0 +1,16 @@
+<div class="container" style="padding-top: 150px; padding-bottom: 50px;">
+  <h2 class="text-center" style="color: white; font-family: 'Raleway', sans-serif;"> <%= @polaroid.title %></h2>
+  <br>
+  <hr>
+  <div class="text-center">
+    <div class="responsive">
+    <%= cl_image_tag @polaroid.photo.key %>
+    </div>
+    <br>
+    <p style="color: white; font-family: 'Raleway', sans-serif;">  <%= @polaroid.description %></p>
+  </div>
+  <hr>
+</div>
+
+
+

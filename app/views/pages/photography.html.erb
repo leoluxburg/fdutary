@@ -1,0 +1,19 @@
+<div class="container" style="padding-top: 150px">
+  <h2 class="text-center" style="color: white; font-family: 'Raleway', sans-serif;"> PHOTOGRAPHY</h2>
+
+  <br>
+  <hr>
+<br>
+    <% @polaroids.each do |polaroid| %>
+    <div class="col-xs-12 text-center" style="padding-left: 20px;">
+      <%= link_to polaroid_path(polaroid) do %>
+      <div class="resposive">
+      <%= cl_image_tag polaroid.photo.key, height: 300, class: "img-fluid", crop: :fill %>
+      </div>
+      <p style="color: white; font-family: 'Raleway', sans-serif;"><%= polaroid.title %></p>
+      <% end %>
+    </div>
+    <% end %>
+  >
+  <hr>
+</div>

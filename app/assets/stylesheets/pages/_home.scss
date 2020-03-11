@@ -1,1 +1,125 @@
 // Specific CSS for your home-page
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+}
+iframe {
+  width: 100%;
+  height: 500px;
+   padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+body{
+  background-color: #0F0F0F;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+   background-attachment: fixed;
+}
+
+.banner img{
+  height: 200px;
+}
+
+.small img{
+  height: 300px;
+}
+
+.punto img{
+  height: 75px;
+}
+
+.banner2 {
+  color: white;
+  text-align: center;
+  height: 50vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+   background-attachment: fixed;
+}
+
+
+
+.btn-bro{
+  background-color:white;
+}
+hr {
+  border-top: 1px solid white;
+}
+
+.footer2{
+  background-color: black;
+}
+.footer2 img{
+  height: 60px;
+}
+.social a:hover{
+  color: #1f9f2a;
+  font-size: 80px;
+  text-decoration: none;
+}
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+.social a:hover{
+
+  text-decoration: none;
+}
+
+.social a{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.padded{
+  padding-top: 50px;
+}
+
+.frame img {
+  height: 300px ;
+
+}
+
+.responsive img {
+  width: auto;
+  height: 100%;
+}

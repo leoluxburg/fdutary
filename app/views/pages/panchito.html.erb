@@ -1,0 +1,18 @@
+<div class="container" style="padding-top: 150px">
+  <h1 class="text-center" style="color: white; font-family: 'Raleway', sans-serif;"> Administrador</h1>
+  <br>
+  <hr>
+  <div class=" text-center">
+   <h4 style="color: white;">Photos</h4>
+
+  <% @polaroids.each do |polaroid| %>
+<br>
+  <p style="color: white;"><%= polaroid.title %> | <%= link_to 'Show', polaroid %> | <%= link_to 'Edit', edit_polaroid_path(polaroid) %> | <%= link_to 'Destroy', polaroid, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+
+  <% end %>
+  <br>
+    <%= link_to 'New trip', new_polaroid_path, class: "btn btn-bro" %>
+  <br>
+  </div>
+  <hr>
+</div>
