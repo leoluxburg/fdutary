@@ -3,8 +3,8 @@
   <br>
   <hr>
   <br>
-  <div class="responsive">
-    <%= cl_image_tag @polaroid.photo.key, height: 450, class: "img-res" %>
+  <div class="img-res">
+    <%= cl_image_tag @polaroid.photo.key, height: 450 %>
   </div>
   <br>
   <p style="color: white; font-family: 'Raleway', sans-serif;">  <%= @polaroid.description %></p>
