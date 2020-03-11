@@ -42,13 +42,7 @@ body{
   align-items: center;
   justify-content: center;
   position:relative;
-      -webkit-background-size: cover; /* safari may need this */
-
-@media (max-width: @iphone-screen) {
-        background-attachment: scroll;
-    }
-
-
+  -webkit-background-size: cover; /* safari may need this */
 }
 
 .banner img{
