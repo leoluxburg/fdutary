@@ -22,7 +22,7 @@ end
 
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary', '~> 1.12.0'
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
 
 group :development, :test do
   gem 'pry-byebug'
